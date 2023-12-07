@@ -5,8 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ULINULI</title>
+
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <!-- font awesome cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <!-- custom css file link -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -109,44 +114,47 @@
   <!-- courses section starts -->
   <section class="courses" id="courses">
     <h1 class="heading">our <span>courses</span></h1>
-    <div class="course-slider">
-      <div class="w">
-        <div class="slide">
+    <div class="swiper course-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldman.png" alt="">
           <h3>web development</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, non.</p>
         </div>
 
-        <div class="slide">
+        <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldwoman.png" alt="">
           <h3>digital marketing</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
         </div>
 
-        <div class="slide">
+        <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldman.png" alt="">
           <h3>science and biology</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
         </div>
 
-        <div class="slide">
+        <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldwoman.png" alt="">
           <h3>graphic design</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
         </div>
 
-        <div class="slide">
+        <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldman.png" alt="">
           <h3>teaching</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
         </div>
 
-        <div class="slide">
+        <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldwoman.png" alt="">
           <h3>engineering</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
         </div>
       </div>
+
+      <div class="swiper-pagination"></div>
+
     </div>
   </section>
   <!-- courses section ends -->
@@ -155,6 +163,8 @@
   </section>
   <!-- contact section ends -->
 
+  <!-- swiper js link -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- custom js file link -->
   <script src="js/script.js"></script>
 </body>

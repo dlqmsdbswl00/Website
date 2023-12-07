@@ -90,6 +90,7 @@ section {
   right: 0;
   z-index: 1000;
   background-color: var(--light-bg);
+  height: 8rem;
 }
 
 .header .flex {
@@ -97,6 +98,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
 
 /* .header .flex .logo {
@@ -105,7 +107,7 @@ section {
 } */
 
 .header .flex img {
-  max-width: 8rem;
+  max-width: 7rem;
   height: auto;
 }
 
@@ -237,7 +239,7 @@ section {
 
 .courses .slide img {
   height: 25rem;
-  width: 100%;
+  width: 25rem;
 }
 
 .courses .slide h3 {
