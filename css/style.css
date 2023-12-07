@@ -254,6 +254,14 @@ section {
   color: var(--light-white);
 }
 
+.swiper-pagination-bullet {
+  background-color: var(--white);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--blue);
+}
+
 
 
 
