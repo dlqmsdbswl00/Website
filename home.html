@@ -29,7 +29,7 @@
       <nav class="navbar">
         <a href="#home">처음으로</a>
         <a href="#about">정보</a>
-        <a href="#courses">courses</a>
+        <a href="#courses">학습활동</a>
         <a href="#contact">회원가입</a>
       </nav>
 
@@ -54,7 +54,7 @@
   <!-- home section ends -->
 
   <!-- couter section starts -->
-  <section class="count">
+  <!-- <section class="count">
     <div class="box-container">
       <div class="box">
         <i class="fas fa-graduation-cap"></i>
@@ -88,7 +88,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- couter section ends -->
 
   <!-- about section starts -->
@@ -101,7 +101,10 @@
 
       <div class="content">
         <h3>왜 우리누리를 선택하나요?</h3>
-        <p>모르겠어요!!!</p>
+        <p>우리의 누리집의 줄임말로,<br>
+          우리누리에서는 치매센터에 방문하지 않더라도<br>
+          치매 자가 진단부터 치매 예방 활동까지<br>
+          집에서 간편하게 이용할 수 있습니다.</p>
         <a href="#contact" class="btn">회원가입</a>
       </div>
     </div>
@@ -110,43 +113,43 @@
 
   <!-- courses section starts -->
   <section class="courses" id="courses">
-    <h1 class="heading">our <span>courses</span></h1>
+    <h1 class="heading">학습 <span>활동</span></h1>
     <div class="swiper course-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide slide">
           <img src="images\clipboard4_check.png" alt="">
           <h3>치매자가진단</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, non.</p>
+          <p>생활 습관을 통해 치매를 자가진단 하세요</p>
         </div>
 
         <div class="swiper-slide slide">
           <img src="images/bowling_strike.png" alt="">
           <h3>볼링놀이</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
+          <p>볼링 놀이를 통해 공간 지각 능력을 기르세요</p>
         </div>
-
+        <!-- 
         <div class="swiper-slide slide">
           <img src="images/crossword_puzzle_oldman.png" alt="">
           <h3>십자말풀이</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
-        </div>
+        </div> -->
 
         <div class="swiper-slide slide">
           <img src="images/sweets_marble_chocolate.png" alt="">
-          <h3>색구슬 맞추기</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
+          <h3>색 구슬 맞추기</h3>
+          <p>색 구슬 맞추기를 통해 인지 능력을 기르세요</p>
         </div>
 
         <div class="swiper-slide slide">
           <img src="images/car_animals.png" alt="">
           <h3>같은 동물 맞추기</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
+          <p>같은 동물 맞추기를 통해 기억력을 기르세요</p>
         </div>
 
         <div class="swiper-slide slide">
           <img src="images/job_syakai_fukushishi_woman.png" alt="">
           <h3>치매센터</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid!</p>
+          <p>근처에 있는 치매 관련 센터를 알아보세요</p>
         </div>
       </div>
 
@@ -158,7 +161,7 @@
 
   <!-- contact section starts -->
   <section class="contact" id="contact">
-    <h1 class="heading"><span>contact</span> us</h1>
+    <h1 class="heading"><span>회원</span>가입</h1>
 
     <div class="row">
       <div class="image">
@@ -166,17 +169,17 @@
       </div>
 
       <form action="" method="post">
-        <span>your name</span>
-        <input type="text" required placeholder="enter your full name" maxlength="50" name="name" class="box">
+        <span>성함</span>
+        <input type="text" required placeholder="성함을 입력하세요" maxlength="50" name="name" class="box">
 
-        <span>your email</span>
-        <input type="email" required placeholder="enter your valie email" maxlength="50" name="email" class="box">
+        <span>이메일</span>
+        <input type="email" required placeholder="이메일을 입력하세요" maxlength="50" name="email" class="box">
 
-        <span>your number</span>
-        <input type="number" required placeholder="enter your valie number" maxlength="99999" min="0" name="number"
-          class="box" onkeypress="if(this.value.length == 10) return false;">
+        <span>전화번호</span>
+        <input type="number" required placeholder="전화번호를 입력하세요" maxlength="99999" min="0" name="number" class="box"
+          onkeypress="if(this.value.length == 10) return false;">
 
-        <span>select course</span>
+        <!-- <span>select course</span>
         <select name="couses" class="box" required>
           <option value="" disabled selected>select the course --</option>
           <option value="web development">web development</option>
@@ -184,17 +187,17 @@
           <option value="engineering">engineering</option>
           <option value="digital marketing">digital marketing</option>
           <option value="graphic design">graphic design</option>
-        </select>
+        </select> -->
 
-        <span>select gender</span>
+        <span>성별을 골라주세요</span>
         <div class="radio">
           <input type="radio" name="gender" value="male" id="male">
-          <label for="male">male</label>
+          <label for="male">남성</label>
           <input type="radio" name="gender" value="female" id="female">
-          <label for="female">female</label>
+          <label for="female">여성</label>
         </div>
 
-        <input type="submit" value="send message" class="btn" name="send">
+        <input type="submit" value="완료" class="btn" name="send">
       </form>
     </div>
   </section>
